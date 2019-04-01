@@ -1,0 +1,656 @@
+
+
+
+/* main */
+
+.BigImage{
+	height: 880px;
+	width: 100%;
+
+	position: relative;
+
+	background-image: url("../../../resources/images/mastersfx/service_bigimage_bg.png");
+	background-size: cover;
+
+}
+.BigImage-Inner{
+	width: 100%;
+	height: 800px;
+
+	position: absolute;
+	bottom: 0;
+
+	display: flex;
+}
+
+.BigImage-Inner__Left{
+	width: 60%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.BigImage-Inner__Left-HeadLine{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: #fff;
+}
+.BigImage-Inner__Left-HeadLine-SubText{
+	font-size: 24px;
+}
+.BigImage-Inner__Left-HeadLine-MainText{
+	font-size: 36px;
+	font-weight: bold;
+
+	line-height: 1.5em;
+}
+
+.BigImage-Inner__Right{
+	width: 40%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+}
+.BigImage-Inner__Right-Image{
+	width: 90%;
+	max-width: 535px;
+	height: 0;
+	padding-top: 90%;
+
+	background-image:url("../../../resources/images/mastersfx/service_bigimage_item.png"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.StatusSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(315deg, #155fff, #4b0055);
+}
+.StatusSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.StatusSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.StatusSection-Inner-MainImage{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.StatusSection-Inner-Image{
+	width: 85%;
+}
+
+.StatusSection-Inner__Bottom-DescriptionText{
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+
+
+.PerformanceSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #08084c;
+}
+.PerformanceSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.PerformanceSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.PerformanceSection-Inner-Group{
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.PerformanceSection-Inner-MainImage{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.PerformanceSection-Inner-Image{
+	width: 100%;
+}
+
+
+
+
+.PerformanceSection-Inner-Group__Left{
+	width: 40%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.PerformanceSection-Inner-Group__Middle {
+	width: 20%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.PerformanceSection-Inner-Group__Middle-Text{
+	font-size: 19px;
+	text-align: center;
+
+	font-weight: bold;
+
+	line-height: 2em;
+}
+.PerformanceSection-LargeText-Subject{
+	font-size: 48px;
+
+	color: #6cd1d4;
+}
+.PerformanceSection-LargeText-Percent{
+	color: #d4fcff;
+	font-size: 28px;
+}
+
+
+.PerformanceSection-LargeText-Subject:nth-of-type(1){
+	padding-left: 20px;
+}
+.PerformanceSection-Inner-Group__Right{
+	width: 40%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.PerformanceSection-Inner-Group__Right-HeadLine{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+.PerformanceSection-Inner-Group__Right-Description{
+	font-size: 16px;
+	line-height: 1.5em;
+
+	width: 100%;
+}
+
+
+
+.ProgramSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(315deg, #155fff, #4b0055);
+}
+.ProgramSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	color: #fff;
+}
+.ProgramSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.ProgramSection-Inner-CardGroup{
+	height: 100%;
+	width: 100%;
+
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ProgramSection-Inner-Card{
+	width: 28%;
+	height: 85%;
+	padding-top: 20px;
+
+	border: 1px solid #fff;
+	border-radius: 15px;
+}
+.ProgramSection-Inner-Card-Top{
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ProgramSection-Inner-Card-Bottom{
+	width: 85%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ProgramSection-Inner-Card-Top-Image{
+	width: 80%;
+	height: 90%;
+
+}
+.ProgramSection-Inner-Card:nth-of-type(1) .ProgramSection-Inner-Card-Top-Image{
+	background-image: url("../../../resources/images/mastersfx/programSection_item01.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ProgramSection-Inner-Card:nth-of-type(2) .ProgramSection-Inner-Card-Top-Image{
+	background-image: url("../../../resources/images/mastersfx/programSection_item02.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ProgramSection-Inner-Card:nth-of-type(3) .ProgramSection-Inner-Card-Top-Image{
+	background-image: url("../../../resources/images/mastersfx/programSection_item03.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ProgramSection-Inner-Card-Bottom-Description{
+	height: 75%;
+
+	display: flex;
+	flex-direction: column;
+
+	line-height: 1.5em;
+}
+
+.ProgramSection-Inner-Card-Bottom-Description-Title{
+	font-size: 24px;
+	font-weight: bold;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	line-height: 1.5em;
+}
+.ProgramSection-Inner-Card-Bottom-Description-SubText{
+	font-size: 14px;
+}
+
+
+
+
+
+.BasicCurriculumSection{
+	width: 100%;
+	height: 840px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #08084c;
+}
+.BasicCurriculumSection-Inner{
+	width: 95%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.BasicCurriculumSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.BasicCurriculumSection-Inner-CurriculumListGroup{
+	height: 80%;
+
+	display: flex;
+}
+.BasicCurriculumSection-Inner-CurriculumListGroup__Left , .BasicCurriculumSection-Inner-CurriculumListGroup__Middle , .BasicCurriculumSection-Inner-CurriculumListGroup__Right{
+	width: 33.3333%;
+}
+.BasicCurriculumSection-Inner-CurriculumList{
+	font-size: 14px;
+	height: calc(100% / 5);
+
+	line-height: 1.3em;
+}
+.BasicCurriculumSection-Inner-CurriculumList-HeadLine{
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.BasicCurriculumSection-Inner-CurriculumList-HeadLine-TextColorBlue{
+	color: #73eeff;
+}
+.BasicCurriculumSection-Inner__Bottom-Text{
+	text-align: center;
+}
+
+
+.AdvanceProgramSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #411e7a;
+}
+.AdvanceProgramSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.AdvanceProgramSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.OnlineSupportSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(315deg, #155fff, #4b0055);
+}
+.OnlineSupportSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.OnlineSupportSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.OnlineSupportSection-Inner-MainVisual{
+	width: 100%;
+	max-height: 70%;
+
+	text-align: center;
+}
+.OnlineSupportSection-Inner-MainVisual-Image{
+	width: 35%;
+	min-width: 500px;
+
+}
+.OnlineSupportSection-Inner__Bottom-Text{
+	text-align: center;
+
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.OnlineDataSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	background-color: #08084c;
+}
+.OnlineDataSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	color: #fff;
+}
+.OnlineDataSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.OnlineDataSection-Inner-MainVisual{
+	width: 100%;
+	max-height: 70%;
+
+	text-align: center;
+}
+.OnlineDataSection-Inner-MainVisual-Image{
+	width: 75%;
+	min-width: 750px;
+
+}
+.OnlineDataSection-Inner__Bottom-Text{
+	text-align: center;
+
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ScheduleSection{
+	width: 100%;
+	height: 700px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(315deg, #155fff, #4b0055);
+}
+.ScheduleSection-Inner{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	color: #fff;
+}
+.ScheduleSection-Inner-HeadLine-Text{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ScheduleSection-Inner-MainVisual{
+	width: 100%;
+	max-height: 70%;
+
+	text-align: center;
+}
+.ScheduleSection-Inner-MainVisual-Image{
+	width: 85%;
+
+}
+
+
+.ScheduleSection-Inner__Bottom-Text{
+	text-align: center;
+
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ContactSection{
+	width: 100%;
+	height: 450px;
+
+	background-color: #413068;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ContactSection-Inner{
+	width: 60%;
+	height: 90%;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+
+	color: #fff;
+
+}
+.ContactSection-Inner-HeadLine{
+
+}
+.ContactSection-Inner-Description{
+
+}
+.ContactSection-HeadLine-TitleText{
+	font-size:36px;
+	font-weight: bold;
+}
+
+.ContactSection-Inner-Description-Text{
+	text-align: center;
+	line-height: 2em;
+}
+.ContactSection-Inner-ShowBtn{
+
+}
+.ContactSection-Inner-ShowBtn-Link{
+
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+	padding: 10px 20px;
+
+	border-radius: 100px;
+	background: linear-gradient(90deg, #e967cd, #fdc162);
+}

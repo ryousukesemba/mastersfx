@@ -1,0 +1,48 @@
+/* ===================
+		　フッター
+   ===================*/
+
+
+.Footer{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+
+	background-color: #130f33;
+}
+
+.Footer-Inner{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.Footer-Inner__Top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.Footer-Inner__Top__Right{
+	display: flex;
+	align-items: center;
+}
+
+.Footer-Inner__Top__Left-Logo{
+
+}
+.Footer-Inner__Top__Left-Logo-Image{
+	width: 200px;
+}
+
+.Footer-Inner__Bottom{
+	display: flex;
+	justify-content: center;
+}
+
+.Footer-Inner__Bottom__Right,.Footer-Inner__Bottom__Left{
+	font-size: 10px;
+
+	color: #fff;
+}

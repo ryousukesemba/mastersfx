@@ -1,0 +1,66 @@
+/* ===================
+		　ヘッダー
+   ===================*/
+
+.Header{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+
+	position: absolute;
+	top: 0;
+
+	z-index: 100;
+
+}
+
+.Header-Inner{
+	width: 90%;
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+
+	border-bottom: 1px solid #bfbfbf;
+
+}
+.Header-Inner__Left{
+}
+.Header-Inner__Left-Logo{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Header-Inner__Left-Logo-Image{
+	width: 200px;
+}
+
+.Header-Inner__Right{
+	display: flex;
+	align-items: center;
+}
+.GlobalNav{
+	width: 100%;
+}
+.GlobalNav-List{
+	display: flex;
+	justify-content: space-between;
+}
+.GrobalNav-List-Item{
+
+}
+.GrobalNav-List-Item-Link{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+	padding: 10px;
+}
+.GrobalNav-List-Item:nth-of-type(4) .GrobalNav-List-Item-Link{
+	border-radius: 100px;
+	background: linear-gradient(90deg, #e967cd, #fdc162);
+}
+
+
